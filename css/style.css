@@ -1,0 +1,187 @@
+*{ 
+   margin: 0px;
+   padding:0px;   
+  }  
+
+.box {
+    width:1500px; 
+    height:400px; 
+    background-color: #303030;
+    width: 100%;
+ }
+
+#titulo{
+    color:white;
+    width: 1024px;
+    height: 72px;    
+    font-size:55px;
+    padding:150px;  
+    margin-right:300px ;
+    margin-left:-100px ;
+       
+}   
+    
+#subTitulo{
+   width: 1024px;
+   height: 28px;
+   color:white;
+   margin-left:60px;
+   margin-top:-130px;
+   font-size:26px;   
+
+}
+
+
+#temacentral{
+    margin-top: 132px;
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-bottom: 100px;
+    
+    
+}
+.valores{
+font-family: Inter;
+font-size: 40px;
+font-weight: 600;
+padding:35px;
+justify-content: space-between;
+
+}
+.texto{
+text-align: left;
+font-size: 20px;
+font-family: sans-serif;
+}
+
+
+#dois{
+ right: 50px;
+ display: inline-block
+}
+
+
+#textoempreendimentos{
+  margin-top:-30px;
+  margin-left: 20px;
+}
+
+#textoanos{
+  margin-top:-30px;
+}
+
+#textom²{
+  margin-top:-30px;
+}
+
+
+#um{
+  display: inline-block;
+  margin-left:10px;
+  
+ }
+
+
+#dois{
+  display: inline-block;
+  margin-left:0px;
+}
+
+#tres{
+  display: inline-block;
+  margin-left:0px;
+}
+
+#informaçoe-gerais{
+  background-color: #ffff;
+  display: grid;
+  grid-auto-flow:column;
+  columns: auto;
+  justify-content: space-around;
+  width: 95%;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  
+  }
+  .informacao-textoetitulo{
+    align-items: center;
+    padding-left: 100px;
+    margin-bottom: 10px;
+     font-size:2,9vw;
+     font-family:Verdana;
+     justify-content: center;
+     height: 100px;     
+    
+    }
+
+  #imagem{
+    width:120%;
+   float: left;
+   margin-left:-200px;
+   width:120%;
+    
+  }
+
+  #informacao-texto{
+ font-size:24px;
+ align-items :center;
+ justify-content:center;
+ padding-top:100px;
+ 
+  }
+
+  #informacao-titulo{
+    align-items :center;
+    justify-content:center;
+    margin-bottom:-100px;
+  }
+
+  .boxinferior{
+    width:1500px; 
+    height:400px; 
+    background-color: #303030;
+    width: 100%;
+    text-align: center;
+ }
+
+ #TextoBox{
+  font-size: 32px;
+  color: #ffff;
+  margin: 30px;
+  padding-top:20px;
+ 
+ }
+
+ input{
+  Width: 400px;
+  Height: 55px;
+  margin: 15px;
+  border: 0px;
+  border-radius: 10px;
+  padding-left: 10px;
+
+ }
+
+ button{
+  background: #C07212;
+  width: 250px;
+  height: 50px;
+ top: 1955px;
+ left: 577px;
+ border: 0px;
+ border-radius: 10px;
+ font-size: 20px;
+ margin-bottom: 50px;
+ font-weight: bolder;
+ cursor: pointer;  
+ }
+
+ button:hover{
+  background-color:#9b7444; 
+  color: rgb(99, 38, 12);
+  transform: translateY(-5);
+  box-shadow: 0px 15px 20px  #eeedec1c;
+ }
+
